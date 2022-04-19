@@ -1,0 +1,42 @@
+  .button {
+    transition: all 0.5s;
+    background-color: #FFF;
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 12px;
+    /* color: white; */
+    /* max-width: 200px; */
+  }
+
+  .button:hover:not([disabled]) {
+    background-color: #2c0735;
+    color: #FFF;
+  }
+
+  .button.green {
+    background-color: green;
+    color: #FFF;
+  }
+  .button.green:hover {
+    background-color: green;
+    color: #FFF;
+  }
+
+  .button.red {
+    background-color: red;
+    color: #FFF;
+  }
+  .button.red:hover {
+    background-color: red;
+    color: #FFF;
+  }
+  
+  .button:disabled {
+    cursor: default;
+  }
+  
+  
+  
